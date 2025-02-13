@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled</title>
+    <meta name="author" content="Alex">
+    <meta name="description" content="This page is a mockup of a hypothetical redesign of Instagram's profile page.">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #5588bb
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: repeat(6, 25vw);
+        grid-gap: 0px;
+      }
+      
+      .container > .side-column-image {
+        width: calc(25vw - 1px);
+        height: calc(25vw - 1px);
+        object-fit: cover;
+      }
+      
+      .container > .header {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        background-image: url(grumpy-cat.jpg);
+        background-size: cover;
+        background-position: center;
+      }
+      
+/*       .header > .title-text {
+        
+      }
+      
+      .header > .body-text {
+        
+      } */
+      
+      .container > .middle-column-image-1 {
+        width: calc(50vw - 1px);
+        height: calc(50vw - 1px);
+        object-fit: cover;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 5;
+      }
+      
+      .container > .middle-column-image-2 {
+        width: calc(50vw - 1px);
+        height: calc(50vw - 1px);
+        object-fit: cover;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 7;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <section class="container">
+      <img class="side-column-image" src="https://t4.ftcdn.net/jpg/02/66/72/41/360_F_266724172_Iy8gdKgMa7XmrhYYxLCxyhx6J7070Pr8.jpg" alt="description of image">
+      <main class="header">
+      <h3 class="title-text">Title text here</h3>
+      <p class="bio-text">Bio here</p>
+      </main>
+      <img  class="side-column-image" src="https://t4.ftcdn.net/jpg/02/66/72/41/360_F_266724172_Iy8gdKgMa7XmrhYYxLCxyhx6J7070Pr8.jpg" alt="description of image">
+      <img class="side-column-image" src="https://t4.ftcdn.net/jpg/02/66/72/41/360_F_266724172_Iy8gdKgMa7XmrhYYxLCxyhx6J7070Pr8.jpg" alt="description of image">
+      <img class="side-column-image" src="https://t4.ftcdn.net/jpg/02/66/72/41/360_F_266724172_Iy8gdKgMa7XmrhYYxLCxyhx6J7070Pr8.jpg" alt="description of image">
+      <img class="side-column-image" src="https://t4.ftcdn.net/jpg/02/66/72/41/360_F_266724172_Iy8gdKgMa7XmrhYYxLCxyhx6J7070Pr8.jpg" alt="description of image">
+      <img class="middle-column-image-1" src="https://t4.ftcdn.net/jpg/02/66/72/41/360_F_266724172_Iy8gdKgMa7XmrhYYxLCxyhx6J7070Pr8.jpg" alt="description of image">
+      <img class="side-column-image" src="https://t4.ftcdn.net/jpg/02/66/72/41/360_F_266724172_Iy8gdKgMa7XmrhYYxLCxyhx6J7070Pr8.jpg" alt="description of image">
+      <img class="side-column-image" src="https://t4.ftcdn.net/jpg/02/66/72/41/360_F_266724172_Iy8gdKgMa7XmrhYYxLCxyhx6J7070Pr8.jpg" alt="description of image">
+      <img class="side-column-image" src="https://t4.ftcdn.net/jpg/02/66/72/41/360_F_266724172_Iy8gdKgMa7XmrhYYxLCxyhx6J7070Pr8.jpg" alt="description of image">
+      <img class="side-column-image" src="https://t4.ftcdn.net/jpg/02/66/72/41/360_F_266724172_Iy8gdKgMa7XmrhYYxLCxyhx6J7070Pr8.jpg" alt="description of image">
+      <img class="side-column-image" src="https://t4.ftcdn.net/jpg/02/66/72/41/360_F_266724172_Iy8gdKgMa7XmrhYYxLCxyhx6J7070Pr8.jpg" alt="description of image">
+      <img class="middle-column-image-2" src="https://t4.ftcdn.net/jpg/02/66/72/41/360_F_266724172_Iy8gdKgMa7XmrhYYxLCxyhx6J7070Pr8.jpg" alt="description of image">
+      <img class="side-column-image" src="https://t4.ftcdn.net/jpg/02/66/72/41/360_F_266724172_Iy8gdKgMa7XmrhYYxLCxyhx6J7070Pr8.jpg" alt="description of image">
+      <img class="side-column-image" src="https://t4.ftcdn.net/jpg/02/66/72/41/360_F_266724172_Iy8gdKgMa7XmrhYYxLCxyhx6J7070Pr8.jpg" alt="description of image">
+      
+    </section>
+  </body>
+</html>
